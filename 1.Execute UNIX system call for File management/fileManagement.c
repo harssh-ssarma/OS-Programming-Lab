@@ -9,7 +9,7 @@ int main() {
     // Open a file
     fileDescriptor = open("example.txt", O_CREAT | O_RDWR, 0777);
     // Write to the file
-    printf("Enter text to write to the file: ");
+    printf("Enter text to write in the file:\n");
     //scanf("%[^\n]%*c", buffer); 
     // Read input from the user until a newline is encounterd using scanf
     //or
