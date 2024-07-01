@@ -17,7 +17,7 @@ void main()
 		if(f[j]==0)
 		{
 			f[j]=1;
-			printf("%d\t1\n",j,f[j]);
+			printf("%d\t%d\n",j,f[j]);
 		}
 		if(j!=(st+len-1))
 		printf("The file is allocated to disk\n");
